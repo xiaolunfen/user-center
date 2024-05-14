@@ -1,0 +1,9 @@
+package com.sun.usercenter.mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.sun.usercenter.model.User;
+import org.apache.ibatis.annotations.Mapper;
+
+@Mapper
+public interface UserMapper extends BaseMapper<User> {
+}
